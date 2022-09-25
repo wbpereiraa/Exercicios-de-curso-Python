@@ -1,4 +1,4 @@
-nome = str(input('Qual é eu nome? '))
+nome = str(input('Qual é seu nome? '))
 if nome == 'William':
     print('Que nome bonito!')
 elif nome == 'Pedro' or nome == 'Maria' or nome == 'Paulo':
