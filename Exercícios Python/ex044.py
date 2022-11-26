@@ -11,8 +11,11 @@ if opcao == 1:
 elif opcao == 2:
     print('Sua compra foi de R${} e vai custar R${} no final.'.format(valor_gasto, valor_gasto - valor_gasto * 0.05))
 elif opcao == 3:
-    print('Sua compra foi de R${} e vai custar R${} no final.'.format(valor_gasto, valor_gasto))
+    print('Sua compra foi de R${}, será parcelada em 2x de R${} sem juros e vai custar R${} no final.'.format(valor_gasto, valor_gasto / 2, valor_gasto))
 elif opcao == 4:
-    print('Sua compra foi de R${} e vai custar R${} no final.'.format(valor_gasto, valor_gasto + valor_gasto * 0.2))
-    
+    qts_parcelas = float(input('Qual a quantidade de parcelas? '))
+    print('Sua compra foi de R${}, será parcelada em {}x de R${:.2f} com juros e vai custar R${} no final.'.format(valor_gasto, qts_parcelas, (valor_gasto * 0.2 + valor_gasto) / qts_parcelas, valor_gasto + valor_gasto * 0.2))
+else:
+    total = 0
+    print('OPÇÃO DE PAGAMENTO INVÁLIDA! Tente Novamente!')
     
