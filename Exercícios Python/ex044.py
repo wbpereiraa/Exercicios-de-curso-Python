@@ -18,4 +18,3 @@ elif opcao == 4:
 else:
     total = 0
     print('OPÇÃO DE PAGAMENTO INVÁLIDA! Tente Novamente!')
-    
