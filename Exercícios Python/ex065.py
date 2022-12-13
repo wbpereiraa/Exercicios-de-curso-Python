@@ -4,7 +4,7 @@ num = [] #cria a lista
 r = 'S'
 while r == 'S':
     n = int(input('Digite um numero: '))
-    r = str(input(('Quer continuar? [S/N]'))).upper()
+    r = str(input(('Quer continuar? [S/N]'))).upper().strip()[0]
     cont += 1
     soma += n
     num.append(n) #Adiciona itens a lista
