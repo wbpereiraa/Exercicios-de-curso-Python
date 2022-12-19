@@ -30,7 +30,7 @@ while cont == cont:
         elif soma % 1 == 0:
             print('Você GANHOU')
             cont += 1
-    print('Você venceu. Vamos jogar novamente...')
+    print('Vamos jogar novamente...')
 print(f'Gamer Over! Você venceu {cont} vezes.')
 
 
