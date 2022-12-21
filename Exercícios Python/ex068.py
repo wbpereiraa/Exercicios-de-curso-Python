@@ -5,9 +5,9 @@ print('VAMOS JOGAR PAR OU IMPAR!')
 print('-=' * 20)
 
 cont = 0
-jogador = 'PAR' , 'IMPAR'
+jogador = 'P' , 'I'
 while cont == cont:
-    jogador = str(input('Você quer par ou impar? ')).upper()
+    jogador = str(input('Você quer par ou impar? [P/I] ')).upper().strip()[0]
     n = int(input('escolha um número: '))
     print('-' * 20)
     computador = randint(0,10)
@@ -16,14 +16,14 @@ while cont == cont:
         print(f'Você jogou {n} e o computador {computador}. Total de {soma} deu par!')
     else:
         print(f'Você jogou {n} e o computador {computador}. Total de {soma} deu impar!')
-    if jogador == 'PAR':
+    if jogador == 'P':
         if soma % 2 == 0:
             print('Você GANHOU!')
             cont += 1
         elif soma % 1 == 0:
             print('Você PERDEU')
             break      
-    if jogador == 'IMPAR':
+    if jogador == 'I':
         if soma % 2 == 0:
             print('Você PERDEU')
             break
