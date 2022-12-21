@@ -27,6 +27,7 @@ print(homens)
 print(mulher_20)
 print(f'{(len(maior_18))} pessoas tem mais de 18 anos de idade!')
 print(f'{(len(homens))} homens foram cadastrados!')
-x = 'F'
-c = Counter(mulher_20)
-print(f'{c[x]} mulheres tem menos de 20 anos!')
+#usando o método counter() IMPORTANDO A BIBLIOTECA COLLECTIONS (COUNTER)
+x = 'F' #define qual elemento vai ser buscado na lista
+c = Counter(mulher_20) #define a lista que será contada o elemento definido
+print(f'{c[x]} mulheres tem menos de 20 anos!') #exibe o elemento da lista quantas vezes se repetiu.
