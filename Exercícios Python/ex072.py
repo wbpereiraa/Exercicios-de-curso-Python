@@ -9,3 +9,4 @@ while True:
         numero = int(input('Número inválido! Digite um número entre 0 e 20: '))
 num_ptbr = num2words(numero, lang='pt-br')
 print(f'Você digitou o número {num_ptbr}.')      
+
