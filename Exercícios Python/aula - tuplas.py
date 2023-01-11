@@ -9,9 +9,10 @@ print('Eu comi muito!!')
 print(len(lanche))'''
 
 #Técnica 2
-'''for cont in range (0, len(lanche)):
+for cont in range (0, len(lanche)):
     print(f'Eu vou comer {lanche[cont]}')
-print('Comi de mais!')'''
+print('Comi de mais!')
+print(cont)
 
 #Técnica 3
 '''for pos, comida in enumerate(lanche):
@@ -27,5 +28,5 @@ print(len(c))
 print(c.count(5))
 print(c.index(8))'''
 
-pessoa = ('Gustavo', 39, 'M', 99.88)
-print(pessoa[0])
+#pessoa = ('Gustavo', 39, 'M', 99.88)
+#print(pessoa[0])
