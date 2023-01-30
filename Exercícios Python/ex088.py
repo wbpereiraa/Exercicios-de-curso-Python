@@ -27,5 +27,3 @@ for i, l in enumerate(jogos_1):
 print('*' * 35)
 print('           BOA SORTE!         ')
 print('*' * 35)
-
-    
