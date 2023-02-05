@@ -31,6 +31,7 @@ ordenando_ranking = sorted(valores_dados.items(), key=operator.itemgetter(1), re
 
 for i, l in enumerate(ordenando_ranking):
     print(f'{i+1}º lugar: {l[0]} com {l[1]}')
+    time.sleep(1)
 print('-' * 30)
 print('Fim da execução!')
 
