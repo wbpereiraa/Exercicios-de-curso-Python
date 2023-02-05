@@ -15,7 +15,6 @@ valores_dados['jogador3'] = randint(1,6)
 
 valores_dados['jogador4'] = randint(1,6)
 
-
 #print(valores_dados)
 
 for k, v in valores_dados.items():
@@ -24,7 +23,7 @@ for k, v in valores_dados.items():
 
 print('-=' * 30)
 
-ordenando_ranking = []
+ordenando_ranking = dict()
 print('== RANKING DOS JOGADORES ==')
 ordenando_ranking = sorted(valores_dados.items(), key=operator.itemgetter(1), reverse=True)
 #print(ordenando_ranking[0][1])
