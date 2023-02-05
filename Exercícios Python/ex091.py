@@ -23,7 +23,7 @@ for k, v in valores_dados.items():
 
 print('-=' * 30)
 
-ordenando_ranking = dict()
+ordenando_ranking = []
 print('== RANKING DOS JOGADORES ==')
 ordenando_ranking = sorted(valores_dados.items(), key=operator.itemgetter(1), reverse=True)
 #print(ordenando_ranking[0][1])
