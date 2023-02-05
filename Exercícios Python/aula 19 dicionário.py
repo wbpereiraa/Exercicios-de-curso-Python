@@ -1,4 +1,4 @@
-'''pessoas = {'nome': 'William', 'sexo': 'M', 'idade': 31}
+pessoas = {'nome': 'William', 'sexo': 'M', 'idade': 31}
 print(f'O {pessoas["nome"]} tem {pessoas["idade"]} anos.')
 
 print(pessoas.keys())
@@ -14,7 +14,7 @@ for k in pessoas.values():
 for k, v in pessoas.items():
     print(f'{k} = {v}')
 
-pessoas['nome'] = 'leandro' #troca nome
+'''pessoas['nome'] = 'leandro' #troca nome
 
 pessoas['peso'] = 98.5 #add elemento peso'''
 
@@ -26,7 +26,7 @@ brasil.append(estado2)
 
 print(brasil[0]['uf'])'''
 
-estado = dict()
+'''estado = dict()
 brasil = list()
 
 for c in range(0,3):
@@ -37,6 +37,6 @@ print(brasil)
 
 for e in brasil:
     for k, v in e.items():
-        print(f'O campo {k} tem valor {v}.')
+        print(f'O campo {k} tem valor {v}.')'''
 
 
