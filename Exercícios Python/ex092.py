@@ -34,7 +34,7 @@ while True:
             if ano_atual - dados_trabalhador['Ano contratação'] > 30:
                 print('Você já pode se aposentar!')
         else:
-            print(f'Você ainda precisa trabalhar mais {57 - dados_trabalhador["idade"]} anos e contribuir para o INSS por mais {tempo_contribuicaoF} anos poder se aposentar!')
+            print(f'Você ainda precisa trabalhar mais {57 - dados_trabalhador["idade"]} anos e contribuir para o INSS por mais {tempo_contribuicaoF} anos para poder se aposentar!')
         
 
     print('-=' * 55)
