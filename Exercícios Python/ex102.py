@@ -1,4 +1,11 @@
 def fatorial(n, show = False):
+
+    """
+    -> Calcula o fatorial de um número.
+    :param n: O número a ser calculado.
+    :param show: (opcional) Mostrar ou não a conta do fatorial.
+    :return: O valor do fatorial de um número n.
+    """
     
     f = 1
     for c in range(n, 0, -1):
@@ -13,3 +20,4 @@ def fatorial(n, show = False):
 
 #programa principal
 print(fatorial(10, show=True))
+help(fatorial)
