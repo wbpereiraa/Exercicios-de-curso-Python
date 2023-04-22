@@ -1,1 +1,1 @@
-from ex111.utilidadescev import moeda, dado
+from ex112.utilidadescev import *
