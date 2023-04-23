@@ -1,3 +1,4 @@
+
 def LeiaDinheiro(msg):
     valido = False
     while not valido:
